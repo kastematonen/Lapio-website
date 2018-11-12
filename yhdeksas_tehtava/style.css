@@ -1,10 +1,15 @@
-
+p {color: blue;}
 .first-box-container {
   width: 200px;
   height: 100px;
   background-color: red;
   position: absolute;
   left: 0px;
+  border-width: 20px;
+  border-color: green;
+  border-style: solid;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .second-box-container {
@@ -12,7 +17,13 @@
   height: 100px;
   background-color: yellow;
   position: absolute;
-  left: 200px;
+  left: 250px;
+  border-width: 20px;
+  border-color: red;
+  border-style: solid;
+  text-transform:uppercase;
+  text-align: center;
+
 }
 
 .third-box-container {
@@ -20,6 +31,12 @@
   height: 100px;
   background-color: green;
   position: absolute;
-  left: 400px;
+  left: 500px;
+  border-width: 20px;
+  border-color: yellow;
+  border-style: solid;
+  text-transform: uppercase;
+  text-align: center;
+
 }
 
